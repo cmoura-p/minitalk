@@ -1,23 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   minitalk.h                                         :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cmoura-p <cmoura-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/07 19:57:03 by cmoura-p          #+#    #+#             */
-/*   Updated: 2024/04/05 21:31:54 by cmoura-p         ###   ########.fr       */
+/*   Created: 2024/03/30 19:11:12 by cmoura-p          #+#    #+#             */
+/*   Updated: 2024/04/05 21:31:59 by cmoura-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINITALK_H
-# define MINITALK_H
 
+#ifndef LIBFT_H
+# define LIBFT_H
+
+# include <stdio.h>
 # include <stdlib.h>
+# include <string.h>
 # include <unistd.h>
-# include <signal.h>
 
-/*   LIBFT   */
 int		        ft_atoi(const char *str);
 void	        ft_putnbr(int nb);
 size_t          ft_strlen(unsigned char *str);

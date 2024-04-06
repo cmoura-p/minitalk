@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   minitalk.h                                         :+:      :+:    :+:   */
+/*   minitalk_bonus.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cmoura-p <cmoura-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/07 19:57:03 by cmoura-p          #+#    #+#             */
-/*   Updated: 2024/04/05 21:31:54 by cmoura-p         ###   ########.fr       */
+/*   Created: 2024/03/30 19:34:51 by cmoura-p          #+#    #+#             */
+/*   Updated: 2024/04/06 21:36:14 by cmoura-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINITALK_H
-# define MINITALK_H
+#ifndef MINITALK_BONUS_H
+# define MINITALK_BONUS_H
 
 # include <stdlib.h>
 # include <unistd.h>
