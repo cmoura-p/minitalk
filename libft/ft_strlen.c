@@ -6,18 +6,18 @@
 /*   By: cmoura-p <cmoura-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/04 20:01:35 by cmoura-p          #+#    #+#             */
-/*   Updated: 2024/04/06 20:00:01 by cmoura-p         ###   ########.fr       */
+/*   Updated: 2024/04/16 17:37:12 by cmoura-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t  ft_strlen(unsigned char *str)
+size_t	ft_strlen(unsigned char *str)
 {
-    size_t i;
-    
-    i = -1;
-    while (str[++i])
-        ;      
-    return(i);
+	size_t	i;
+
+	i = -1;
+	while (str[++i])
+		;
+	return (i);
 }
