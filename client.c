@@ -34,7 +34,7 @@ int	main(int ac, char **av)
 	int				i;
 	unsigned char	*str;
 
-	if (ac == 3)
+	if (ac == 2)
 	{
 		str = (unsigned char *)av[2];
 		pid = ft_atoi(av[1]);
